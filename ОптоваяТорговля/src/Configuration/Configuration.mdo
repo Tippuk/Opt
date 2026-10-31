@@ -47,6 +47,7 @@
   <documents>Document.Покупка</documents>
   <documents>Document.Продажа</documents>
   <enums>Enum.ВидыДоговоров</enums>
+  <reports>Report.ОтчетОПродажах</reports>
   <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
 </mdclass:Configuration>
