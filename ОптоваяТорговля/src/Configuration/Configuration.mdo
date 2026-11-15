@@ -40,13 +40,31 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <roles>Role.ДобавлениеИзменениеДокументовПокупок</roles>
+  <roles>Role.ДобавлениеИзменениеДокументовПродажи</roles>
+  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
+  <roles>Role.ДобавлениеИзменениеНСИ</roles>
+  <roles>Role.ЗапускВебКлиента</roles>
+  <roles>Role.ЗапускМобильногоКлиента</roles>
+  <roles>Role.ЗапускТонкогоКлиента</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.СохранениеДанныхВывод</roles>
+  <roles>Role.ЧтениеНСИ</roles>
+  <commonModules>CommonModule.Пользователи</commonModules>
   <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
   <documents>Document.Покупка</documents>
   <documents>Document.Продажа</documents>
   <enums>Enum.ВидыДоговоров</enums>
+  <enums>Enum.Должности</enums>
   <reports>Report.ОтчетОПродажах</reports>
   <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
