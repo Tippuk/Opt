@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Покупка</value>
   </synonym>
+  <comment>покупка</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.Покупка.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
